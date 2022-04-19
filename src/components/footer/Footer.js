@@ -1,4 +1,9 @@
 import React from 'react'
+import { IoLogoFacebook } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io";
+import { IoLogoInstagram} from "react-icons/io";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoYoutube } from "react-icons/io";
 import x from '../../asserts/imges/ubergrad_logo_footer.png'
 function Footer() {
   return (
@@ -109,17 +114,22 @@ function Footer() {
                                <span className='text-[#FFC107]'>Mail Us</span>
                                :  hello@ubergrad.com
                            </li>
-                           <img class="mt-2" style={{width:"250px"}} src={x} ></img> 
+                           <img class="mt-2 w-[250px]" src={x} alt=""/>
                      </ul>
                 </div>
             </div>
         </div>
-        <div class="bg-[#FFC107] py-6 mt-0 w-full px-16 flex flex-row  justify-between">
+        <div class="bg-[#FFC107] py-4 mt-0 w-full px-16 flex flex-row  justify-between">
             <div class='flex flex-col justify-items-center'>
                 <p class='text-base text-left '>Copyright © 2022 Ubergrad India Pvt. Ltd. All rights reserved</p>
             </div>
-             <div class="flex flex-col justify-items-center">
-              <div class="justify-items-center">
+             <div class="justify-items-center">
+              <div class="justify-items-center flex flex-row space-x-5">
+                  <i class=" text-2xl"><IoLogoFacebook/></i>
+                  <i class=" text-2xl"><IoLogoWhatsapp/></i>
+                  <i class=" text-2xl"><IoLogoInstagram/></i>
+                  <i class=" text-2xl"><IoLogoYoutube/></i>
+                  <i class=" text-2xl"><IoLogoLinkedin/></i>
               </div>
              </div>
         </div>

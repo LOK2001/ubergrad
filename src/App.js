@@ -10,18 +10,16 @@ function App() {
   return (
     <div> 
       {/* {call navbar} */}  
-      {/* <Navbar/> */}
+      <Navbar/>
 
       {/* {call why study in usa} */}
       <WhyStudyInUsa/>
       {/* {call why choose usa} */}
        <WhyChooseUsa/>
       {/* call more stats in usa */}
-       {/* <MoreStats/> */}
+       <MoreStats/>
       {/* call eligibilityrequrements */}
        <Eligibilityrequrements/>
-      {/* call ubergrads */}
-       
       {/* call experts */}
        <Experts/>
       {/* call footer */}
