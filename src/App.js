@@ -11,7 +11,6 @@ function App() {
     <div> 
       {/* {call navbar} */}  
       <Navbar/>
-
       {/* {call why study in usa} */}
       <WhyStudyInUsa/>
       {/* {call why choose usa} */}
